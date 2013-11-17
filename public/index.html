@@ -1,241 +1,185 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
-      body {
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>Kenny Sung</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/label.css" type="text/css" media="screen">
+	<!--link rel="stylesheet" href="css/arrow.css" type="text/css" media="screen"-->
+	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
+	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</script>
+</head>
 
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
+<body>
 
-      a  {color: #03c}
-      a:hover {
-        background-color: #03c;
-        color: white;
-        text-decoration: none;
-      }
-
-
-      #page {
-        background-color: #f0f0f0;
-        width: 750px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      #content {
-        float: left;
-        background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
-        padding: 25px;
-        width: 500px;
-      }
-
-      #sidebar {
-        float: right;
-        width: 175px;
-      }
-
-      #footer {
-        clear: both;
-      }
-
-      #header, #about, #getting-started {
-        padding-left: 75px;
-        padding-right: 30px;
-      }
+	<div class="menu transparent shadow drop-down">
+		<div class="container clearfix full-height">
+			<div class="upper-menu">
+				<div id="name" class="grid_4">
+					<a href="#slide1" id="ch-name" class="large">宋梓平</a>
+					<h2>Tzu-Pin Sung</h2>	
+				</div>
+				<div id="profile-img-1" class="profile-img-small img-none"><img src="images/profile-2.png"></div>
+				<div id="nav" class="grid_7 omega">
+					<ul class="navigation">
+						<li data-slide="1">About</li>
+						<li data-slide="2">Experience</li>
+						<li data-slide="3">Projects</li>
+						<li data-slide="4">Publication</li>
+						<li data-slide="5">Dance</li>
+					</ul>
+				</div>
+			</div>
+			<div id="profile-img-2" class="profile-img-large"><img src="images/profile.png"></div>
+			<div id="arrow"><a href="#slide2"><img src="images/arrow.png"></a></div>
+		</div>
+	</div>
 
 
-      #header {
-        background-image: url("assets/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
-      #header h1, #header h2 {margin: 0}
-      #header h2 {
-        color: #888;
-        font-weight: normal;
-        font-size: 16px;
-      }
+	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+		<!--div class="container clearfix">
+			<div id="content" class="grid_7">
+				<h1>Top Slide</h1>
+				<h2>Get ready to make magic!</h2>
+				<p>Remember that this is a BETA version. This is my first framework so if you see any issue please <a href="mailto:jalxob@gmail.com">let me know it</a>. </p>
+				<p>Don't forget to follow me!</p>
+				<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p>
+			</div>
+			<div id="decorative" class="grid_5 omega">
+				<img src="images/decorative.png">
+			</div>
+		</div-->
+	</div>
 
 
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
 
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.3">
+		<div class="container clearfix full-height">
+			<div id="content" class="grid_12 full-height content-s2">
+				<h1>Experience</h1>
+				<div class="exp-container-frame">
+					<div class="exp-frame shadow-light">
+						<div class="exp-img-frame">
+							<img class="exp-img" src="images/ntu-mark.png">
+						</div>
+						<ul class="exp-list">
+							<li class="exp-org"><a href="http://www.ntu.edu.tw/chinese2009/">National Taiwan University</a></li>
+							<li class="exp-time">09/2009 - 06/2013</li>
+							<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2"> Bachelor of Science in Electrical Engineering</div></li>
+							<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2"> Graduate at 06/15/2013</div></li>
+						</ul> 
+					</div>
+					<div class="exp-frame shadow-light">
+						<div class="exp-img-frame">
+							<img class="exp-img" src="images/mpac-mark.png">
+						</div>
+						<ul class="exp-list">
+							<li class="exp-org"><a href="http://mpac.ee.ntu.edu.tw/index.php">Multimedia Processing and Communication Lab</a></li>
+							<li class="exp-time">09/2011 - Present</li>
+							<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Undergraduate Researcher</div></li>
+							<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">Light Field Research</div></li>
+						</ul> 
+					</div>
+					<div class="exp-frame shadow-light">
+						<div class="exp-img-frame">
+							<img class="exp-img" src="images/mvnl-mark.png">
+						</div>
+						<ul class="exp-list">
+							<li class="exp-org"><a href="http://mvnl.csie.ntu.edu.tw/">Mobile and Vehicular Network Lab</a></li>
+							<li class="exp-time">07/2012 - 09/2013</li>
+							<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Undergraduate Researcher</div></li>
+							<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">Traffic Light Recognition</div></li>
+						</ul> 	
+					</div>
+					<div class="exp-frame shadow-light">
+						<div class="exp-img-frame">
+							<img class="exp-img" src="images/aea-mark.png">
+						</div>
+						<ul class="exp-list">
+							<li class="exp-org"><a href="http://www.tpk.moj.gov.tw/mp030.html">Administrative Enforcement Agency</a></li>
+							<li class="exp-time">08/2013 - Present</li>
+							<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Enforcement Officer Assistant</div></li>
+							<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">1 year mandatory service</div></li>
+						</ul> 	
+					</div>
+				</div>
+			</div>
 
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
-
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
-
-
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
-        padding-top: 15px;
-      }
-      #getting-started h1 {
-        margin: 0;
-        font-size: 20px;
-      }
-      #getting-started h2 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: normal;
-        color: #333;
-        margin-bottom: 25px;
-      }
-      #getting-started ol {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #getting-started li {
-        font-size: 18px;
-        color: #888;
-        margin-bottom: 25px;
-      }
-      #getting-started li h2 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 18px;
-        color: #333;
-      }
-      #getting-started li p {
-        color: #555;
-        font-size: 13px;
-      }
+		</div>
+	</div>
 
 
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
-      }
 
-      .filename {
-        font-style: italic;
-      }
-    </style>
-    <script type="text/javascript">
-      function about() {
-        info = document.getElementById('about-content');
-        if (window.XMLHttpRequest)
-          { xhr = new XMLHttpRequest(); }
-        else
-          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
-        xhr.open("GET","rails/info/properties",false);
-        xhr.send("");
-        info.innerHTML = xhr.responseText;
-        info.style.display = 'block'
-      }
-    </script>
-  </head>
-  <body>
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://www.ruby-doc.org/core/">Ruby core</a></li>
-              <li><a href="http://www.ruby-doc.org/stdlib/">Ruby standard library</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.3">
+		<div class="container clearfix full-height">
+			<div id="content" class="grid_12 full-height content-s3">
+				<h1>Projects</h1>
+				<div class="pro-container-frame">
+					<div class="pro-frame shadow-light">
+						<div class="pro-img-frame">
+							<img class="pro-img" src="images/aea-mark.png">
+						</div>
+						<ul class="pro-list">
+							<li class="pro-org"><a href="http://www.tpk.moj.gov.tw/mp030.html">Administrative Enforcement Agency</a></li>
+							<li class="exp-time">08/2013 - Present</li>
+							<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Enforcement Officer Assistant</div></li>
+							<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">1 year mandatory service</div></li>
+						</ul> 	
+						<span class="label label-primary">Primary</span>
+					</div>
+					<div class="pro-frame shadow-light">
+						
+					</div>
+					<div class="pro-frame shadow-light">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-      <div id="content">
-        <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
-        </div>
 
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
-        </div>
 
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
+	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.3">
+		<div class="container clearfix">
 
-          <ol>
-            <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
+			<div id="content" class="grid_12 full-height content-s4">
+				<h1>Publications</h1>
+				<h2><a href="http://jalxob.com/cool-kitten" target="_blank">Cool Kitten</a> was made by <a href="http://www.jalxob.com" target="_blank">Jalxob</a>.</h2>
+				<p>Don't forget to follow me!</p>
+				<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p>
+			</div>
 
-            <li>
-              <h2>Set up a default route and remove <span class="filename">public/index.html</span></h2>
-              <p>Routes are set up in <span class="filename">config/routes.rb</span>.</p>
-            </li>
+		</div>
+	</div>
 
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:create</code> to create your database. If you're not using SQLite (the default), edit <span class="filename">config/database.yml</span> with your username and password.</p>
-            </li>
-          </ol>
-        </div>
-      </div>
+	<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.3">
+		<div class="container clearfix">
+			<div id="content" class="grid_12 full-height content-s5">
+				<h1>Dance Shows</h1>
+				<h2><a href="http://jalxob.com/cool-kitten" target="_blank">Cool Kitten</a> was made by <a href="http://www.jalxob.com" target="_blank">Jalxob</a>.</h2>
+				<p>Don't forget to follow me!</p>
+				<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p>
+			</div>
 
-      <div id="footer">&nbsp;</div>
-    </div>
-  </body>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+</body>
 </html>
