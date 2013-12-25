@@ -30,6 +30,17 @@ a:visited {
 
 /* Navigation */
 
+span.bold {
+	font-weight: bold;
+}
+span.italic {
+	font-style: italic;
+}
+span.underline {
+	text-decoration: underline;
+}
+
+
 .menu {
 	position:fixed;
 	top:0px;
@@ -447,7 +458,10 @@ a:visited {
 	padding-top: 120px;
 }
 
-
+.video-container{
+	width: 680px;
+	margin: 0 auto;
+}
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
