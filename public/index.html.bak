@@ -127,125 +127,22 @@
 				<div class="pro-container-frame">
 					<div class="pro-frame shadow-light">
 						<div class="pro-img-frame">
-							<img class="pro-img" src="images/lm-mark.png">
+							<img class="pro-img" src="images/aea-mark.png">
 						</div>
 						<ul class="pro-list">
-							<li class="pro-name">
-								<a target="_blank" href="http://hacks.developer.yahoo.com/hack/yahoo-hack-taiwan/leak-motion/event_17/hack_1022">Leak Motion</a></li>
-							<li class="pro-time">11/2013</li>
-							<li class="pro-tag">
-								<span class="label label-danger">Award-Winner</span>
-								<span class="label label-warning">Yahoo Hack Taiwan 2013</span>
-							</li>
-							<li class="pro-tag">
-								<span class="label label-default">iOS</span>
-								<span class="label label-default">Python</span>
-								<span class="label label-default">Google Map API</span>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-link"></span></div><div class="pro-col2">Source Code 
-								<a target="_blank" href="https://github.com/acsalu/LeakMotion">1</a>, 
-								<a target="_blank" href="https://github.com/mw10104587/LMServer">2</a></div>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
-								<a target="_blank" href="http://hacks.developer.yahoo.com/hack/yahoo-hack-taiwan/leak-motion/event_17/hack_1022">Honor Mention (Top 4)</a>
-								</div>
-							</li>
-							<li class="pro-content">
-								<div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div>
-								<div class="pro-col2">Leak Motion is an iPhone app that provides joggers with running routes which represents meaningful patterns such as heart shapes on street map. We transform the map into a graph and the desired pattern into a sub-graph. The algorithm searches the subgraph isomorphism in the graph to find the best possible pattern.</div>
-							</li>
+							<li class="pro-org"><a href="http://www.tpk.moj.gov.tw/mp030.html">Administrative Enforcement Agency</a></li>
+							<li class="exp-time">08/2013 - Present</li>
+							<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Enforcement Officer Assistant</div></li>
+							<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">1 year mandatory service</div></li>
 						</ul> 	
+						<span class="label label-primary">Primary</span>
 					</div>
 					<div class="pro-frame shadow-light">
-						<div class="pro-img-frame">
-							<img class="pro-img" src="images/ag-mark.png">
-						</div>
-						<ul class="pro-list">
-							<li class="pro-name">
-								<a target="_blank" href="http://www.innovateasia.com/2012_tw/">Air Guitar</a></li>
-							<li class="pro-time">05/2012 - 12/2012</li>
-							<li class="pro-tag">
-								<span class="label label-danger">Award-Winner</span>
-								<span class="label label-warning">Altera Innovate Asia 2012</span>
-							</li>
-							<li class="pro-tag">
-								<span class="label label-default">FPGA</span>
-								<span class="label label-default">Verilog</span>
-								<span class="label label-default">Quartus II</span>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-film"></span></div><div class="pro-col2">
-								<a target="_blank" href="https://www.youtube.com/watch?v=XPjMeNuOXco">Video</a>
-								</div>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-file"></span></div><div class="pro-col2">
-								<a target="_blank" href="https://drive.google.com/file/d/0BwfBOzip3CCMVFZDT21YVmxFQlE/edit?usp=sharing">Paper</a>, 
-								<a target="_blank" href="https://drive.google.com/file/d/0BwfBOzip3CCMUVdGRy14bWlnbms/edit?usp=sharing">Slide</a>
-								</div>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
-								<a target="_blank" href="http://www.innovateasia.com/2012_tw/">Most Popular Award and 2nd Prize</a>
-								</div>
-							</li>
-							<li class="pro-content"><div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="pro-col2">Air Guitar is a real-time FPGA system that enables the users to play the guitar with nothing in hand. It incorporates skin detection, gesture recognition, and sound synthesizer to achieve our goal. With 12 simple gestures and various playing modes, everyone even beginners can enjoy playing the guitar.</div></li>
-						</ul>
+						
 					</div>
 					<div class="pro-frame shadow-light">
-						<div class="pro-img-frame">
-							<img class="pro-img" src="images/tr-mark.png">
-						</div>
-						<ul class="pro-list">
-							<li class="pro-name">
-								<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Travelers</a></li>
-							<li class="pro-time">04/2012 - 07/2012</li>
-							<li class="pro-tag">
-								<span class="label label-danger">Award-Winner</span>
-								<span class="label label-warning">Trend Micro Contest 2012</span>
-							</li>
-							<li class="pro-tag">
-								<span class="label label-default">Google App Engine</span>
-								<span class="label label-default">Java</span>
-								<span class="label label-default">HTML5</span>
-								<span class="label label-default">JavaScript</span>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-globe"></span></div><div class="pro-col2">
-								<a target="_blank" href="http://travel-agents.appspot.com/travel.jsp">Website</a>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
-								<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Top 15</a>
-								</div>
-							</li>
-							<li class="pro-content"><div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="pro-col2">A trip-planning website that auto-generates customized trip fot the user. The user can input desired time and spots, taste for the trip, and get a complete trip. The planning algorithm aims to find the shortest path along the spots while taking various factors such as the user’s favorites, type and opening/closing time of a spot, recommendations from other users, etc. into consideration.</div></li>
-						</ul>
+						
 					</div>
-					<div class="pro-frame shadow-light">
-						<div class="pro-img-frame">
-							<img class="pro-img" src="images/tr-mark.png">
-						</div>
-						<ul class="pro-list">
-							<li class="pro-name">
-								<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Light Field Research</a></li>
-							<li class="pro-time">04/2012 - 07/2012</li>
-							<li class="pro-tag">
-								<span class="label label-info">Research Project</span>
-								<span class="label label-warning">Trend Micro Contest 2012</span>
-							</li>
-							<li class="pro-tag">
-								<span class="label label-default">Google App Engine</span>
-								<span class="label label-default">Java</span>
-								<span class="label label-default">HTML5</span>
-								<span class="label label-default">JavaScript</span>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-globe"></span></div><div class="pro-col2">
-								<a target="_blank" href="http://travel-agents.appspot.com/travel.jsp">Website</a>
-							</li>
-							<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
-								<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Top 15</a>
-								</div>
-							</li>
-							<li class="pro-content"><div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="pro-col2"></div></li>
-						</ul>
-					</div>
-					
 				</div>
 			</div>
 		</div>
